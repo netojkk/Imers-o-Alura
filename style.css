@@ -36,8 +36,7 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     text-shadow: 4px 5px 5px rgb(0, 0, 0);
-    
-    margin-bottom: 2rem;
+ 
 }
 
 /* Estiliza as seções da página */
@@ -45,7 +44,7 @@ section {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 1rem; /* Espaçamento abaixo de cada seção */
+    margin-bottom:1rem; /* Espaçamento abaixo de cada seção */
 }
 
 /* Estiliza os inputs dentro das seções */
@@ -80,11 +79,14 @@ section button:hover {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 30vh; /*Altura máxima da caixa de resultados*/ 
+    height: 34vh; /*Altura máxima da caixa de resultados*/ 
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+                     /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+}
+.resultado-pesquisa, p {
+    margin: .1rem;
 }
 
 /* Estiliza cada item de resultado */
@@ -98,6 +100,7 @@ section button:hover {
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.564); /* Sombra leve */
 }
+
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
