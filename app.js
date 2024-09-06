@@ -1,18 +1,23 @@
 let section = document.getElementById("resultados-pesquisa")
 console.log(section)
 
-section.innerHTML = `
+let resultados = ""
+
+for (filme of filmes) {
+    resultados += `
     <div class="item-resultado">
-        <h2> ${filmes[0].titulo} </h2>
+        <h2> ${filme.titulo} </h2>
     
-        <p class="descricao-meta">${filmes[0].descricao} 
+        <p class="descricao-meta">${filme.descricao} 
         </p> 
                 
         <p>
-            Diretor: ${filmes[0].diretor}
+            Diretor: ${filme.diretor}
         </p>
         <p>
-            Ano de Lançamento: 2010
+            Ano de Lançamento: ${filme.anoLancamento}
         </p>
     </div>
 `
+}
+section.innerHTML = resultados

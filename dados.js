@@ -19,19 +19,19 @@ let filmes = [
     },
     {
         titulo: "Moana",
-        descricao: "Uma jovem aventureira que embarca em uma jornada pelo oceano para salvar seu povo e encontrar seu próprio destino.",
+        descricao: "Uma jovem aventureira que embarca em uma jornada pelo oceano junto com seu porquinho para salvar seu povo e encontrar seu próprio destino.",
         diretor: "Ron Clements e John Musker",
         anoLancamento: 2016
     },
     {
         titulo: "Frozen",
-        descricao: "As irmãs Elsa e Anna embarcam em uma jornada épica para encontrar Elsa e quebrar uma maldição que congelou seu reino.",
+        descricao: "As irmãs Elsa e Anna embarcam em uma jornada épica e fria para encontrar Elsa e quebrar uma maldição que congelou seu reino.",
         diretor: "Chris Buck e Jennifer Lee",
         anoLancamento: 2013
     },
     {
         titulo: "Spider-Man: Into the Spider-Verse",
-        descricao: "Miles Morales se torna o Homem-Aranha e une forças com outras versões do herói para salvar o multiverso.",
+        descricao: "Miles Morales se torna o Homem-Aranha e une forças com outras versões do herói para salvar o multiverso de inimigos formidavéis.",
         diretor: "Bob Persichetti, Peter Ramsey e Rodney Rothman",
         anoLancamento: 2018
     },
