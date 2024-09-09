@@ -75,13 +75,17 @@ section button:hover {
     background-color: #1b2733; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Adiciona uma sombra mais intensa*/
 }
-
+.clean-btn {
+    background-color: rgb(183, 24, 24);
+}
+.clean-btn:hover {
+    background-color: rgb(134, 10, 10);
+}
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
     height: 34vh; /*Altura máxima da caixa de resultados*/ 
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-                     /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
 }
@@ -120,9 +124,14 @@ section button:hover {
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
-.descricao-meta {
-    color: #000000; /* Cor do texto */
+p > .descricao-meta {
+    color: #ffffff; /* Cor do texto */
+    
     margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+.descricao-erro {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
 }
 
 /* Estiliza o rodapé da página */
