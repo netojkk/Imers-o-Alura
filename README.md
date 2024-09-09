@@ -1,6 +1,6 @@
 # Seu Guia de Animações!
 
-Bem-vindo ao Gemini! 🌟 Este é um projeto pessoal criado para ajudar você a explorar e descobrir animações de forma divertida e interativa. Se você ama animações e quer encontrar informações sobre suas favoritas, este projeto tem tudo o que você precisa!
+Bem-vindo ao meu projeto Gemini/Alura! 🌟 Este é um projeto pessoal criado para ajudar você a explorar e descobrir animações de forma divertida e interativa. Se você ama animações e quer encontrar informações sobre suas favoritas, este projeto tem tudo o que você precisa!
 
 ## O Que É?
 
